@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="news-sys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/news_sys_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="news-sys/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="news-sys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="library" level="project" name="jackson-core-2.13.1" />
+          <element id="library" level="project" name="jxl-2.6.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
